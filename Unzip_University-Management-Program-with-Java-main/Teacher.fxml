@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.TeacherController">
+   <children>
+      <Button fx:id="teacherClasses" alignment="CENTER" layoutX="205.0" layoutY="131.0" mnemonicParsing="false" onAction="#teacherClasses" prefHeight="82.0" prefWidth="190.0" text="Teacher Classes" textAlignment="CENTER">
+         <font>
+            <Font name="Nazanin" size="20.0" />
+         </font>
+      </Button>
+      <Label fx:id="label" alignment="CENTER" cache="true" contentDisplay="CENTER" layoutX="180.0" layoutY="31.0" prefHeight="64.0" prefWidth="253.0" textFill="Purple">
+         <font>
+            <Font name="Nazanin" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
